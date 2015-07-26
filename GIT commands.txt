@@ -1,0 +1,119 @@
+git log --oneline --decorate --graph --all -10
+
+esc :wq - save and quite from vim editor
+
+https://github.com/libgit2/libgit2
+
+git add File1.txt - stage file
+
+git commit -m 't1_fix' - commit changes to git repository
+
+git status - get current status
+
+git tag - show existing tags
+
+git tag -a v21 -m 'version23'
+
+git show v21 - show info for commit
+
+git rm - removing file 
+
+git reset head File1.txt - unstaging file
+
+git checkout -- File1.txt - unmodifying a modified file
+
+git branch t1 - create new branch
+
+git checkout t1 - switch to a branch
+
+git checkout -b myBranch1 - create a new branch and switch to it
+
+git merge hotfix1 - merge current branch with hotfix1 branch
+
+git branch -d hotfix1 - delete branch
+
+git branch - shows all branches
+
+git branch --merged - to see branches merged in current branch
+
+git branch --no-merged
+
+git diff..contrib - showa the work your current branch has comparing 
+with it's ancestor on master branch
+
+git cherry-pick 295d361 - merge in current branch one certain commit
+
+git config --global rerere.enabled true - enable reuse recorded 
+resolution
+
+git log --pretty=oneline - show all commits
+
+git log - show latest commits
+
+git describe master - get common info about the last commit
+
+git archive master --prefix='project/' --format=zip > 'gitProject'.zip -
+create snapshot of the latest project version
+
+git remote -v - show all remotes
+
+git fetch origin - get data from remotes
+
+git pull - get daya from remotes and merge with local data
+
+git push origin master - push <remote> <local>
+
+git remote show origin - get info about remote
+
+git remote rename pb paul - rename remote
+
+git remote rm paul - remove remote
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
