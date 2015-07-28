@@ -69,6 +69,14 @@ git remote rename pb paul - rename remote
 
 git remote rm paul - remove remote
 
+git push origin feature1:awesomeFeature - push local feature1 
+to remote awesomeFeature
+
+git checkout -b f4 origin/feat4 - create local branch and set it to track
+remote branch
+
+
+
 
 
 
