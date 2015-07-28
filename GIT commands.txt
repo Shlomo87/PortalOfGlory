@@ -75,6 +75,40 @@ to remote awesomeFeature
 git checkout -b f4 origin/feat4 - create local branch and set it to track
 remote branch
 
+git pull origin - pull and merge all changes for tracked branches from remote
+
+git branch -u origin/awesomeFeatue - set current branch to track certain 
+remote branch
+
+git branch -vv - show tracking branches
+
+git push origin --delete feature3 - delete remote branch
+
+git show 737c - show info about certain commit
+
+git show master - last commit and other info
+
+git reflog - show where HEAD was recently
+
+git show master@{yesterday} - show info for master yesterday
+
+git log -g master - show commits only for master
+
+git log master..f4 - show commits on f4 not merged in master
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
