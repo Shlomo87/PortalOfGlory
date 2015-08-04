@@ -101,6 +101,10 @@ in master
 
 git add -i - go into interactive staging mode
 
+git grep -n iss1 - search in working directory
+
+git log -Siss1 --oneline - search for commits with string iss1
+
 
 
 
