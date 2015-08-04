@@ -96,6 +96,10 @@ git log -g master - show commits only for master
 
 git log master..f4 - show commits on f4 not merged in master
 
+git log f4 feature1 --not master - show commits on f4, feature1 not merged 
+in master
+
+git add -i - go into interactive staging mode
 
 
 
